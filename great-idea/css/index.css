@@ -163,6 +163,9 @@ div.wrapper-two {
 
 }
 
+section.contact {
+	padding: 0 0 0 65px;
+}
 footer {
 	display: flex;
 	flex-direction: column;

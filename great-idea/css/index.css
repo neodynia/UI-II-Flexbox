@@ -160,6 +160,7 @@ div.middle-img img {
 div.wrapper-two {
 	display: flex;
 	padding: 20px;
+
 }
 
 footer {
@@ -172,6 +173,7 @@ footer section.footer-text {
 	font-size: 14px;
 	text-align: center;
 	padding: 20px 0;
+	margin: 20px;
 }
 
 

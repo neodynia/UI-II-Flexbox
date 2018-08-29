@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
@@ -89,6 +93,7 @@ section#subnav-content {
 	display: flex;
 	justify-content: center;
 	padding: 50px 0;
+	max-width: 100%;
 	
 }
 
@@ -179,4 +184,29 @@ footer section.footer-text {
 	margin: 20px;
 }
 
+/*services*/
+div.svc-header-img {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
 
+div.wrapper-two-svc {
+	display: flex;
+	padding: 50px 20px;
+	flex-flow: row nowrap;
+}
+
+div.service-facts {
+	display: flex;
+	padding: 50px 0;
+}
+
+div.svc-text {
+	width: 50%;
+	padding: 25px;
+}
+
+.serv-info-img {
+	width: 50%;
+}

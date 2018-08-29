@@ -88,13 +88,13 @@ img.logo {
 section#subnav-content {
 	display: flex;
 	justify-content: center;
+	padding: 50px 0;
 	
 }
 
 div.ttb {
 	display: flex;
 	flex-flow: column wrap;
-	width: 30%;
 	align-items: flex-start;
 	justify-content: center;
 }
@@ -115,3 +115,43 @@ div.ttb {
 	font-size: 1em;
 	text-align: center;
 }
+
+#subnav-content img {
+	max-width: 100%;
+	margin-left: 100px;
+}
+
+
+main {
+	display: flex;
+	flex-flow: column wrap;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 50px 0;
+}
+
+div.wrapper-one {
+	display: flex;
+}
+
+div.middle-img {
+	display: flex;
+}
+
+div.wrapper-two {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 0;
+}
+
+footer section.footer-text {
+	font-size: 14px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
